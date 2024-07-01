@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -85,8 +85,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/wulv0088/wulv0088.github.io/assets/169683279/615cd4eb-06ee-467a-b25e-9f92f921880f"><img src="https://github.com/wulv0088/wulv0088.github.io/assets/169683279/615cd4eb-06ee-467a-b25e-9f92f921880f" alt="224341e5r55pnljnnn5fz7" style="max-width: 100%;"></a></p>
 <p>magnet:?xt=urn:btih:EC484710719DC9C54606B671F9828ED4DD7C3AB9</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://wulv0088.github.io"> AV Gmeek </a>
 <p>
@@ -141,6 +143,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");
